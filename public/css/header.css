@@ -1,0 +1,59 @@
+*{font-family:"微软雅黑";}
+.carousel{height: 500px;background-color: #000000;margin-bottom: 30px;margin-top:-20PX;}
+.carousel .item{height: 500px;background-color: #000000;}
+.carousel img{width: 100%;}
+.center {width: auto;display: table;margin-left: auto;margin-right: auto;}
+.img-thumbnail{height: 300px;}
+.img_listtab{width: 500px;}
+.ma_title{margin-top: 100px;font-size: 35px;color: #337ab7;}
+
+/* 导航条颜色 浅蓝03A9F4 深蓝2D5D81 */
+.navbar-blue {background-color:#2D5D81;font-size:16px;z-index:100000;}
+.navbar-blue a{color:#fff;}
+.navbar-blue .active{background-color:#fff;color:#383838;}
+.navbar-blue .navbar-brand{margin-left:20px;}
+.navbar-blue .navbar-brand:hover,
+.navbar-blue .navbar-brand:focus {background-color:#3D688D;}
+.navbar-blue .navbar-nav > li > a {text-align:center;}
+.navbar-blue .navbar-nav > li > a:hover {color: #fff;background-color:#3D688D;}
+.navbar-blue .navbar-nav > li > a:focus {color: #383838;background-color:#fff;}
+.navbar-blue .navbar-nav > li > a:focus  .active{color: #383838;background-color:#2D5D81;}
+.navbar-blue .navbar-nav > .active > a,
+.navbar-blue .navbar-nav > .active > a:hover,
+.navbar-blue .navbar-nav > .active > a:focus {color: #383838;}
+
+.navbar-blue .navbar-toggle {border-color:#03A9F4;background-color:#03A9F4;}
+.navbar-blue .navbar-toggle:hover,
+.navbar-blue .navbar-toggle:focus  .navbar-toggle{background-color:#3D688D;}
+.navbar-blue .navbar-toggle .icon-bar {background-color:#fff;}
+.navbar-blue .navbar-toggle:hover .icon-bar {background-color:#03A9F4;}
+.navbar-blue .navbar-collapse,
+.navbar-blue .navbar-form {border-color:#fff;}
+.navbar-blue .navbar-nav > .open > a,
+.navbar-blue .navbar-nav > .open > a:hover,
+.navbar-blue .navbar-nav > .open > a:focus {color:#03A9F4;background-color:#f5f5f5;}
+.dropdown{width:160px;}
+.dropdown-menu{text-align:center;}
+@media (max-width: 767px) {
+  .dropdown{width:100%;}
+  .navbar-blue .navbar-nav .open .dropdown-menu > .dropdown-header {border-color:#03A9F4;}
+  .navbar-blue .navbar-nav .open .dropdown-menu .divider {border:1px dashed #eee;background-color:#fff}
+  .navbar-blue .navbar-nav .open .dropdown-menu > li > a {color:#9d9d9d;text-align:center;}
+  .navbar-blue .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-blue .navbar-nav .open .dropdown-menu > li > a:focus {color:#03A9F4;background-color:#eee;}
+  .navbar-blue .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-blue .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-blue .navbar-nav .open .dropdown-menu > .active > a:focus {color: #fff;background-color:#080808;}
+  .navbar-blue .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-blue .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-blue .navbar-nav .open .dropdown-menu > .disabled > a:focus {color: #444;background-color: transparent;}
+}
+.navbar-blue .navbar-link {color: #9d9d9d;}
+.navbar-blue .navbar-link:hover {color:#fff;}
+.navbar-blue .btn-link {color:#9d9d9d;}
+.navbar-blue .btn-link:hover,
+.navbar-blue .btn-link:focus {color: #fff;}
+.navbar-blue .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-blue .btn-link:hover,
+.navbar-blue .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-blue .btn-link:focus {color: #444;}
